@@ -38,6 +38,7 @@ class ShoppingCartPage extends StatelessWidget {
 
   AppBar _buildShoppingCartAppBar() {
     return AppBar(
+
       leading: Icon(Icons.arrow_back_ios),
       actions: [
         IconButton(
