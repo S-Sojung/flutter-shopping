@@ -14,3 +14,11 @@ ThemeData theme(){
     scaffoldBackgroundColor: kPrimaryColor
   );
 }
+
+ThemeData theme2(){
+  return ThemeData(
+      primarySwatch: kPrimaryWhite,
+      scaffoldBackgroundColor: kPrimaryColor
+  );
+}
+

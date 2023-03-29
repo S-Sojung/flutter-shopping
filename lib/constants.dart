@@ -5,19 +5,21 @@ import 'package:flutter/material.dart';
 // PrimarySwatch (??)
 // 색상에는 k 를 붙여줌
 // 사이즈에는 언더스코어를 _
+
 const MaterialColor kPrimaryWhite = MaterialColor(
-    0xFFFFFFFF,
-    <int, Color>{
-      100 : Color(0xFFFFFFFF),
-      200 : Color(0xFFFFFFFF),
-      300 : Color(0xFFFFFFFF),
-      400 : Color(0xFFFFFFFF),
-      500 : Color(0xFFFFFFFF),
-      600 : Color(0xFFFFFFFF),
-      700 : Color(0xFFFFFFFF),
-      800 : Color(0xFFFFFFFF),
-      900 : Color(0xFFFFFFFF),
-    }
+      0xFFFFFFFF,
+      <int, Color>{
+            50: const Color(0xFFFFFFFF),
+            100: const Color(0xFFFFFFFF),
+            200: const Color(0xFFFFFFFF),
+            300: const Color(0xFFFFFFFF),
+            400: const Color(0xFFFFFFFF),
+            500: const Color(0xFFFFFFFF),
+            600: const Color(0xFFFFFFFF),
+            700: const Color(0xFFFFFFFF),
+            800: const Color(0xFFFFFFFF),
+            900: const Color(0xFFFFFFFF),
+      },
 );
 
 const kPrimaryColor = Color(0xFFeeeeee);
